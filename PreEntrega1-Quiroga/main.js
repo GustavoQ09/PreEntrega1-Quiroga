@@ -17,7 +17,7 @@ verificarNumero(numeroIngresado);
   }
 } */
 
-/* imprimirNumeros(); */ 12;
+/* imprimirNumeros(); */
 
 function juegoAdivinaNumero() {
   const numeroSecreto = 28;
