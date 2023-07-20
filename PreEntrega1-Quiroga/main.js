@@ -1,4 +1,4 @@
-function verificarNumero(numero) {
+function corroboraNumero(numero) {
   if (numero > 0) {
     alert("El número es positivo.");
   } else if (numero < 0) {
@@ -9,7 +9,7 @@ function verificarNumero(numero) {
 }
 
 const numeroIngresado = parseInt(prompt("Ingrese un número:"));
-verificarNumero(numeroIngresado);
+corroboraNumero(numeroIngresado);
 
 /* function imprimirNumeros() {           LO DEJO COMENTADO PARA QUE LUEGO LO PRUEBEN SOLO CON EL CONSOLE LOG, YA QUE AL TENER EL RESTO DE LA ENTREGA, NO LO EJECUTA BIEN Y DA ERROR.
   for (let i = 1; i <= 10; i++) {         TAMPOCO LE PONGO UN ALERT, PARA QUE VEA QUE FUNCIONA, PORQUE EN LA WEB NO ES MUY LINDO DE VER EL ALERT DESDE EL 1 AL 10.
@@ -19,7 +19,7 @@ verificarNumero(numeroIngresado);
 
 /* imprimirNumeros(); */
 
-function juegoAdivinaNumero() {
+function acertaNumero() {
   const numeroSecreto = 28;
   let intentos = 0;
   21;
@@ -39,4 +39,4 @@ function juegoAdivinaNumero() {
   }
 }
 
-juegoAdivinaNumero();
+acertaNumero();
